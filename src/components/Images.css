@@ -1,0 +1,19 @@
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-card {
+  border: 1px solid black;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 12px;
+  height: 250px;
+  transition: all .3s;
+}
+
+.image-card:hover {
+  transform: scale(1.1) translateY(10px);
+}
